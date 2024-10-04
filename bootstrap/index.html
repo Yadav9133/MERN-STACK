@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <section class="container m-4 border border-danger bg-info">
+        <h1 class="text-center">Table</h1>
+       <table class="table tab-content table-dark table-striped-columns table-hover table-bordered table-primary table-responsive">
+            <tr class="table-danger table-hover ">
+                <td>Id</td>
+                <td>Name</td>
+                <td>Sal</td>
+                <td>Dept</td>
+                
+            </tr>
+            <tr class="table-group-divider">
+                <td>1</td>
+                <td>Vittahl</td>
+                <td>25000</td>
+                <td>Development</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Vishal</td>
+                <td>30000</td>
+                <td>Testing</td>
+            </tr>
+       </table>
+    </section>
+    
+    <h2 class="text-center">Flex</h2>
+    <div class="container border border-dark p-5 d-flex gap-2 justify-content-evenly m-4 bg-info">
+            <div class="p-2 bg-danger rounded w-25">Box1</div>
+            <div class="p-2 bg-primary rounded w-25">Box2</div>
+            <div class="p-2 bg-warning rounded w-25">Box3</div>
+    </div>
+
+
+    <h3 class="text-center">Grid</h3>
+    <section class="container border border-dark pt-5 pb-5 d-grid m-4 bg-info">
+        <div class="row justify-content-md-center">
+           <div class="col-4 col-md-6 col-sm-12 col-lg-2 bg-primary rounded ">Box1</div>
+           <div class="col-4 col-md-4 col-sm-0 col-lg-8 p-3 bg-danger rounded ">Box2</div>
+           <div class="col-4 col-md-2 col-sm-0 col-lg-2 p-3 bg-warning rounded">Box3</div>
+        </div>
+    </section>
+
+    <section class="container border border-black">
+    <form action="">
+        <div class="mb-0">
+               <label for="input1" class="form-label" >Name:</label>
+               <input type="text" class="form-control w-25" id="input1"  placeholder="enter name">
+        </div>
+        
+        <label for="selection">Cities:</label>
+        <select class="form-select" name="" id="selection">
+            <option value="" selected hidden>select city</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+        </select>
+    </form>
+    </section>
+
+</body>
+</html>

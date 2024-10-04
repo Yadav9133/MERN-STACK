@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            width: 50%;
+            margin-left: 350px;
+        }
+        legend{
+            text-align: center;
+        }
+        header{
+            text-align: center;
+        }
+        footer{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+        <header><h1>Form Tags</h1></header>
+        <!-- form tag -->  
+        <!-- real time uses of form tag is Login/Registration Forms,Shopping Cart/Checkout Forms: -->
+        <form action="" method="post">
+        <fieldset>
+                 <legend>Employee Form</legend>
+            <label for="n">Name:</label>
+            <input type="text" id="n" name="name" placeholder="enter ur name"  autofocus><br><br>
+
+            <label for="">Email:</label>
+            <input type="email"><br><br>
+
+            <label for="">DOB: &nbsp;</label>
+            <input type="date"><br><br>
+
+            <label for="">Age: &nbsp;</label>
+            <input type="number" min="1" max="24"><br><br>
+
+            <label for="">Color:</label>
+            <input type="color"><br><br>
+
+            <label for="">Password:</label>
+            <input type="password" required  ><br><br>
+            <!-- pattern="[A-Z]{5}[a-z]{5}[0-9]{5}" -->
+
+            <label for="">File:</label>
+            <input type="file"><br><br>
+
+            <label for="">Range:</label>
+            <input type="range"><br><br>
+            <!-- radio type -->
+            <label for="">Gender:</label>
+            <input type="radio" name="gen" value="male" id="m">
+            <label for="m">male</label>
+            <input type="radio" name="gen" value="female" id="f" checked>
+            <label for="f">female</label>
+            <input type="radio" name="gen" value="others" id="o" >
+            <label for="o">others</label><br><br>
+            <!--check box  -->
+            <label for="">Hobbies:</label>
+            <input type="checkbox" name="hob" value="cricket" id="cri">
+            <label for="cri">Cricket</label>
+            <input type="checkbox" name="hob" value="hockey" id="hk" >
+            <label for="hk">Hockey</label>
+            <input type="checkbox" name="hob" value="others" id="ot" disabled>
+            <label for="ot">Pubg</label><br><br>
+
+            <label for="">Image:</label>
+            <input type="image" ><br><br>
+
+            <label for="">Search:</label>
+            <input type="search" name="" id="" ><br><br>
+
+            <label for="">URL:</label>
+            <input type="url" name="" id=""><br><br>
+
+            
+            <!-- dropdown list -->
+            <label for="citi">States:</label>
+            <select name="" id="citi">
+                <optgroup label="Karnataka">Karnataka
+                       <option value="hyderabad" name="city" hidden>select cities</option>
+                       <option value="hyderabad" name="hyd">Hyderabad</option>
+                       <option value="banglore" name="bang">Bangalore</option>
+                </optgroup>
+                <optgroup label="Telangana">Telangana
+                       <option value="mumbai" name="mum">Mumbai</option>
+                       <option value="pune" name="pun">Pune</option>
+                </optgroup>
+            </select><br><br>
+            <textarea name="" id="">Comments:</textarea><br><br>
+
+            <button type="submit">Submit</button>
+            <button type="">Reset</button>
+        </fieldset>
+        </form><br>
+
+        <!-- media tags -->
+        <!-- real time uses of meadia tags are for podcasts,music apps,meadia apps -->
+        <figure>
+        <img src="./images/kingfisher-9016787_1280.webp" alt="error" height="300" width="300">
+        <figcaption>Bird</figcaption>
+        </figure><br>
+
+        <audio src="./images/animal_bgm.mp3" controls   preload="none" ></audio><br>
+
+        <video src="/media/cc0-videos/flower.mp4"  type="video/mp4" controls autoplay muted></video><br><br>
+
+        <!-- anchor tag -->
+        <a href="https://www.google.co.in/" target="_blank">click</a>
+
+        <!-- emmets shortcuts 
+             div#demo..><div id="demo=></div>"
+             div.demo..><div class="demo"></div>
+             div>div..><div><div></div></div>
+             div+div   <div></div>  <div><div>
+        -->
+
+
+    <!-- /html5 symantic tags -->
+        
+    <!-- section tag -->
+    <section>
+        <h2>About Us</h2>
+            <p>We are a company dedicated to providing top-notch services.</p>
+    </section>
+          
+    <section>
+        <h2>Our Services</h2>
+        <p>We offer web development, SEO, and marketing services.</p>
+    </section>
+
+    <!-- details and summary tags -->
+    <details>
+        <summary>More Information</summary>
+        <p>This is additional information that is hidden by default. Click the summary above to reveal it.</p>
+    </details>
+   
+    <!-- figure and figcaption -->
+    <figure>
+        <img src="./images/Apple.jpeg" alt="A scenic landscape">
+        <figcaption>A beautiful fruit.</figcaption>
+    </figure>
+      
+    <!-- article tag -->
+    <article>
+        <h2>Breaking News: HTML5 Released</h2>
+        <p>HTML5 is the latest evolution of the standard that defines HTML...</p>
+    </article>
+
+    <iframe src="./day1.html" frameborder="" width="450px"></iframe>
+
+    <!-- footer tag -->
+    <footer> Copyright information &COPY; &nbsp; Contact Us</footer>
+
+
+</body>
+</html>

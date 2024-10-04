@@ -1,0 +1,67 @@
+what is computer?
+-->it is an electronic device which is a combination of hardware and operating system.
+-->it is used to perform specific or (variety) task or operation
+-->it is server dependable
+
+What is Database?
+-->it is a medium or place or warehouse which is used to store the large amount of data.
+example: amazon, flipchart data separately stores
+-->it will store the data in a systematic manner and provides the security and also we can access it easily.
+..>anything can be store like files, numbers, raw information.
+
+what is data and why we are paying money for the data pack?
+..>data refers to any information that is transmitted, processed, or stored by digital devices. 
+   Data can be numbers, text, images, videos, or other forms of media that are encoded in a way(byte format) that computers can understand.
+   eg: Sending a message over WhatsApp transmits data to the recipient's device.
+..>Network Infrastructure Costs:
+   Mobile networks require large investments in towers, servers, satellite systems, and fiber-optic cables.
+   The ongoing maintenance of these infrastructures is costly, and service providers charge users for their usage of the network.
+-->Operating Costs:
+   Running data centers, maintaining network security, and providing technical support are all operating costs for service providers.
+
+what is server?
+..>server is computer or system which is used to provide the resources, data, services to other computers known as clients.
+..> server play crucial role by managing and delivering the content, application.
+-->server which act like a medium that manages and responds to req from client devices like user req something it will reach to server
+   and server will go to the data base find particular data and return it back.
+Examples: When you browse the web, your browser (client) requests a webpage from a web server. The server sends the requested page back to your browser.
+
+front end and back end?
+front-end: html, css, js, libraries reactjs, angular js(user interface)
+back-end: server-side programming lang->node js, java,python, php.
+database: MongoDB, mysql..
+
+what is application?
+..>Os dependable
+..>file extension, perform specific task.
+..>is a type of software designed to perform a specific function or set of functions for the user. 
+   Applications can be for personal, business, or other use cases and can run on various platforms like computers, smartphones, or tablets. 
+   They interact with the operating system to access resources like memory, processing power, and storage
+   examples: Specific Functionality, Runs on Operating Systems, User-Oriented.
+
+which lang understand by browser?
+..> JavaScript because of it engine installed in it by default.
+..>Chrome's built-in JavaScript engine (V8) executes JavaScript code to handle events, animations, form validations, AJAX requests, and other interactive features on web pages.
+
+Semantic and non-semantic tags?
+..>the tags which gives the proper meaning for the developer and browser whatever written content inside it.
+  example:<p> <h1>
+..>the tags which does not give proper meaning for the dev and browser whatever written content inside in it.
+  example:<div>hello world</div>
+
+formatting text tags?
+..><i>,<b>,<em>,<strong>,<mark>,<u>,<sub>,<sup>,<strike>,<del>,<small>,<big>         new tags:<code>:for inline code snippets.
+                                                                                              <samp>
+                                                                                              <var>
+                                                                                              <xmp>,<q>
+                                                                                              <blocquote>
+
+
+block-level and inline level elements?
+..>block level element which occupy 100% width on browser.
+..>in-line level will occupy as per the content beside it we can display another content on same line.
+
+
+
+img tag and list, table tags and structure of html?
+

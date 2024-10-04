@@ -1,0 +1,67 @@
+/* #maindiv {
+    border: 2px solid red;
+    height: 250px;
+    width: 250px;
+    /* margin: 100px; */
+    /* transition: all 5s ease-in-out 2s; */
+    /* transition-timing-function: linear-r; */
+/* 
+    padding: 50px;
+    box-sizing: border-box;
+} */
+/* div:hover {
+     color: red;
+     background-color: green; */
+     /* background-image: url(../images/Apple.jpeg);
+     font-size: 35px;
+     cursor: pointer; */
+     
+/* } */ 
+/* div:active {
+    color: aqua;
+    background-color: yellow; 
+    font-size: 35px;
+} */
+
+/* img {
+
+    border: 2px solid red;
+    height: 230px;
+    width: 230px;
+    border-radius: 100%;
+    transition: all 2s ease-in-out 2s;
+} */
+
+/* img:hover {
+    height: 230px;
+    width: 230px;
+    background-image: url(../images/download.jpeg);
+    cursor: pointer;
+} */
+
+#div1 {
+    background-color: red;
+    height: 150px;
+    width: 150px;
+    transition: width 2s;
+}
+
+#div1:hover {
+    width: 250px;
+}
+.boxes {
+    height: 150px;
+    width: 150px;
+    /* border: 2px solid yellow; */
+    position: absolute ;
+    background-color: green;
+    /* z-index: 0; */
+}
+.box1 {
+    background-color: red;
+    /* z-index: 2; */
+}
+.box2 {
+    background-color: yellow;
+    z-index: 1;
+}

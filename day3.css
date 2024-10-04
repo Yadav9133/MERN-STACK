@@ -1,0 +1,67 @@
+/* div{
+    border: 2px solid green;
+    height: 250px;
+    width: 250px;
+    color: blue;
+    background-color: blue;
+} */
+
+ div{
+    border: 2px solid yellow;
+    height: 250px;
+    width: 250px;
+ }
+ #first{
+    color: red;
+    background-color: yellow;
+ }
+ .sec{
+    color: blue;
+    background-color: aqua;
+ }
+ .third{
+    background-color: green;
+ }
+ p{
+    font-size: 25px;
+    text-transform: capitalize;
+    text-decoration: line-through;
+ }
+ *{
+    background-color: aqua;
+ }
+ input[required]{
+    border: 2px solid red;
+ }
+ /* a[href^="https"]{
+    color: green;
+    text-decoration: none;
+  } */
+  /* #container > h1 {
+    color: blue;
+  } */
+  /* #container + h1{
+    color: yellow;
+  } */
+  #container ~ h1{
+    color: aqua;
+  }
+  #container h1{
+    color: brown;
+  }
+  #anchor:active{
+    color: yellow;
+  }
+  #anchor:link{
+    color: blue;
+    text-decoration: none;
+  }
+  input:focus{
+    border-color: blue;
+  }
+  button:hover{
+    cursor: pointer;
+  }
+  button:active{
+    background-color: green;
+  }

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./day3.css">
+    <!-- internal css using style tag inside head tag we can target the elements..
+         it is only good to style only one html page what if we have more than one html page then we should go for external css-->
+    <!-- <style>
+        /* div{
+            border: 2px solid green;
+            height: 250px;
+            width: 250px;
+            background-color: yellow;
+        } */
+    </style> -->
+</head>
+
+<body>
+    
+    <!-- types of css styllling there are three types
+            inline css,internal css,external css -->
+    <!-- inline is nothing bt targeting or styling the perticuler element using style attribute inside its opening tah  -->
+
+    <!-- <div >
+                <span>Hello world</span>
+            </div> -->
+    <!-- Use: It is the best practice for large projects because it separates content from style and allows for reusability across multiple pages -->
+
+    <!-- simple selectors -->
+    
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum consequatur adipisci amet beatae labore,
+        doloribus vitae qui architecto eos vel, ratione vero, blanditiis quibusdam et! Deleniti facilis fuga, ab
+        consequuntur doloribus dolorem laborum libero voluptatem animi! Perspiciatis qui modi sapiente a eius numquam
+        consequuntur dolorem quae sequi? Totam, id laudantium?
+    </p>
+    <form>
+        <input type="text" name="username" placeholder="Username" required><br><br>
+        <input type="password" name="password" placeholder="Password"><br><br>
+        <input type="submit" value="Login">
+        <a href="https://example.com">Visit our website</a>
+      </form>
+      <a href="www.xml.com">click</a><br><br>
+      <a href="https://www.google.co.in/">click2</a><br><br>
+      
+
+      <!-- combinator selectors -->
+      <div>
+        <h1 id="first">direct childs</h1>
+        <h1 class="sec">direct childs</h1>
+        <h1 class="sec third">direct childs</h1>
+      </div>
+      <div id="container">
+             <h1>direct son</h1>
+             <span><h1>indirect son</h1></span>
+             <h1>direct son</h1>
+      </div>
+      <h1>sibling son</h1>
+      <h1>sec sible</h1>
+
+      <!-- pseudo class selectors -->
+    <a href="https://www.google.co.in/" target="_blank" id="anchor">click3</a><br><br>
+
+    <button>Submit</button>
+
+
+
+</body>
+
+</html>

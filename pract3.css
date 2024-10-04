@@ -1,0 +1,31 @@
+#container{
+    height: 150px;
+    width: 150px;
+    background-color: violet;
+    color: blue;
+}
+/* @media (min-width : 500px){
+    div{
+        background-color: red;
+    }
+} */
+
+/* @media (min-width : 300px) and (max-width :500px) {
+    #container{
+        background-color: red;
+    }
+} */
+#container:hover{
+
+    background-color: yellow;
+    color: green;
+    /* transition-property: all;
+    transition-duration: 5s; */
+} 
+#container:active{
+    background-color: aqua;
+    transition-property: all;
+    transition-duration: 2s;
+}
+/* transition property */
+/* transition enable you to define the transition b/w two states of elements.  */
