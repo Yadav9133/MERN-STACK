@@ -50,13 +50,6 @@ Bootstrap:
 9. How does Bootstrap handle form validation?
 10. What are utility classes in Bootstrap?
 
-assignment questions?
-
-does the browser only understand js not the other script lang?
-how to make source code secure
-does the webpage supports to all diff browsers
-for each and for i for off
-type of why array is object showing
 
 
 

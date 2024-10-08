@@ -1,43 +1,69 @@
-* {
+*{
     margin: 0%;
-    padding: 0%;
+    padding:0%;
     box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
 }
-.maincontainer {
-    height: 500px;
-    background-color: aqua;
-    width: 500px;
-    border: 2px solid red;
+#main{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 100vh;
+}
+section header #nav{
+    border: 2px solid yellow;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    /* background-image: linear-gradient(to right, red 20%, yellow 50%, blue 80%); */
+    background-color: grey;
+    border-style: none;
+}
+#nav div{
+    /* border: 2px solid green; */
+    margin-left: 80px;
+    margin-top: 20px;
+}
+#nav ol{
+    /* border: 2px solid aqua; */
+    list-style: none;
+    display: flex;
+    margin-left:55%;
+    width: 350px;
+    margin-top: 20px;
+}
+#nav ol li {
+    align-items: center;
+    justify-content: space-between;
+    flex: auto;
+    padding-top: 10px;
+    font-size: 15px;
+    color: white;
+}
+li:hover {
+ cursor: pointer;
+ /* border: 2px solid yellow; */
+ background-color: green;
+ border-radius: 10px;
+ padding: 15px 15px 15px ;
+}
+#main .container div {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 89vh;
+    background-color: grey;
+    color: white;
+    text-align: center;
+    flex-direction: column;
 }
-.maincontainer .box1 {
-    height: 150px;
-    width: 150px;
-    background-color: red;
-    /* padding-top: 50px; */
-    margin-bottom: 50px;
-    z-index: 1;
+h1 {
+    font-size: 4em;
+    font-weight: bold;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    margin-bottom: 250px;
+    color: white;
 }
-.maincontainer .box2 {
-    height: 150px;
-    width: 150px;
-    background-color: green;
-    /* margin-right: 150px; */
-    position: relative;
-    right: 100px;
-}
-/* .box2 {
-     position: relative;
-     right: 100px;
-} */
-.maincontainer .box3 {
-    height: 150px;
-    width: 150px;
-    background-color: yellow;
-    margin-top: 50px;
-    position: relative;
-    right: 200px;
-    /* z-index: -1; */
-}
+
+
+
+

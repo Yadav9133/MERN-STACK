@@ -1,0 +1,104 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: font-family , sans-serif;;
+}
+.maincontainer {
+    height: 100vh;
+    width: 100%;
+    background-color: grey;
+    /* border: 5px solid black;  */
+    /* to make grid responsive we use property */
+   
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-template-rows: 1fr 2fr 2fr 1fr;
+    /* grid-template-columns: repeat(auto, minmax(350px,1fr)); */
+    grid-template-areas: 
+    "header header header"
+    "aside main main"
+    "aside section article"
+    "footer footer footer";
+}
+header {
+    /* margin: auto; */
+    font-size: 25px;
+    background-color: black;
+    color: white;
+    /* border: 2px solid aqua; */
+    grid-area: header;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+}
+aside {
+    /* margin: auto; */
+    font-size: 1.5rem;
+    background-color: green;
+    grid-area: aside;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+}
+main {
+    /* margin: auto; */
+    font-size: 1.5rem;
+    background-color: yellow;
+    grid-area: main;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+}
+.incontainer {
+    /* margin: auto; */
+    font-size: 1.5rem;
+    grid-area: section;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    
+}
+footer {
+    /* margin: auto; */
+    font-size: 1.5rem;
+    grid-area: footer;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+}
+article {
+    font-size: 1.5rem;
+    grid-area: article;
+    background-color:rebeccapurple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+
+}
+
+
+@media (max-width: 480px) {
+    .maincontainer {
+      /* grid-template-columns: 1fr; */
+      grid-template-columns: 1fr;   
+      grid-template-rows: repeat(6, 1fr);
+      grid-template-areas: 
+      "header"
+      "main"
+      "aside"
+      "section"
+      "article"
+      "footer"
+      ;
+    }
+  }
